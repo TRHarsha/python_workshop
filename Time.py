@@ -8,7 +8,7 @@ if stopformat == "second":
     insec=int(input("Enter the seconds"))
     while (second <= insec):
         print("Simple Stopwatch(in Python) ")
-        print('n')
+        print('\n')
         print(hours, minute, second)
         print('-------------')
         time.sleep(1)
@@ -24,7 +24,7 @@ elif stopformat == "minute":
     inmin=int(input("Enter the minutes: "))
     while (minute <= inmin):
         print("Simple Stopwatch(in Python) ")
-        print('n')
+        print('\n')
         print(hours, minute, second)
         print('-------------')
         time.sleep(1)
